@@ -1,0 +1,296 @@
+/* Form Elements */
+.auth-card form {
+    display: grid;
+    gap: 14px;
+}
+
+.auth-card label {
+    color: #5e7065;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.auth-card input {
+    display: block;
+    width: 100%;
+    border: 1px solid #dfe8e1;
+    background: #fbfdfb;
+    border-radius: 7px;
+    height: 38px;
+    margin-top: 6px;
+    padding: 0 11px;
+    color: #43594a;
+    outline: 0;
+    font-size: 10px;
+}
+
+.auth-card input:focus {
+    border-color: #7bae8d;
+    box-shadow: 0 0 0 3px #5a9a741c;
+}
+
+.password-field {
+    position: relative;
+}
+
+.password-field input {
+    padding-right: 42px;
+}
+
+.password-field span {
+    position: absolute;
+    right: 11px;
+    top: 13px;
+    color: #a8b4ac;
+    font-size: 10px;
+    letter-spacing: 2px;
+}
+
+.auth-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -2px;
+}
+
+.check-label {
+    display: inline-flex !important;
+    gap: 6px;
+    align-items: center;
+    color: #8d9a92 !important;
+    font-weight: 400 !important;
+}
+
+.check-label input {
+    width: 13px;
+    height: 13px;
+    margin: 0;
+    accent-color: #559777;
+}
+
+.auth-options a,
+.auth-footer a {
+    color: #4f8d6d;
+    font-weight: 600;
+}
+
+.auth-options a {
+    font-size: 9px;
+}
+
+.auth-submit {
+    height: 39px;
+    border: 0;
+    border-radius: 7px;
+    background: #4c8972;
+    color: #fff;
+    font-size: 11px;
+    font-weight: 600;
+    box-shadow: 0 5px 12px #4c897226;
+}
+
+.auth-submit:hover {
+    background: #39755f;
+}
+
+.auth-submit span {
+    margin-left: 8px;
+    font-size: 15px;
+}
+
+.auth-footer {
+    text-align: center;
+    color: #9aa59f;
+    font-size: 10px;
+    margin-top: 20px;
+}
+
+.auth-legal {
+    color: #9aaa9f;
+    font-size: 9px;
+    margin: 16px 0 0;
+}
+
+.auth-alert {
+    border-radius: 6px;
+    padding: 9px 10px;
+    margin: 0 0 13px;
+    font-size: 9px;
+}
+
+.auth-error {
+    color: #a25f5a;
+    background: #fbefed;
+    border: 1px solid #f3dcd9;
+}
+
+.auth-success {
+    color: #4b8d6b;
+    background: #eaf5ed;
+    border: 1px solid #d7ebdc;
+}
+
+/* Assignment Selects */
+.assignment-select {
+    appearance: none;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background: transparent;
+    color: #52655a;
+    font-size: 9px;
+    padding: 5px 17px 5px 7px;
+    outline: 0;
+    cursor: pointer;
+    background-image: linear-gradient(45deg, transparent 50%, #9aaa9f 50%),
+                      linear-gradient(135deg, #9aaa9f 50%, transparent 50%);
+    background-position: calc(100% - 9px) 10px, calc(100% - 6px) 10px;
+    background-size: 3px 3px, 3px 3px;
+    background-repeat: no-repeat;
+}
+
+.assignment-select:hover,
+.assignment-select:focus {
+    border-color: #dce8de;
+    background-color: #f7fbf7;
+}
+
+.assignment-select.unassigned {
+    color: #bd8150;
+}
+
+.assignment-select.not-required {
+    color: #a7b0aa;
+}
+
+.guide-select {
+    min-width: 111px;
+}
+
+.vehicle-select {
+    min-width: 79px;
+}
+
+.tl-select {
+    min-width: 79px;
+}
+
+.assignment-cell {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: #52655a;
+    font-size: 9px;
+}
+
+.assignment-cell.unassigned {
+    color: #bd8150;
+}
+
+.assignment-cell.not-required {
+    color: #a7b0aa;
+}
+
+.assignment-dot {
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    flex: 0 0 auto;
+}
+
+.guide-dot {
+    background: #6ca685;
+}
+
+.vehicle-dot {
+    background: #7b9db2;
+}
+
+.tl-dot {
+    background: #a292c4;
+}
+
+/* Role Select */
+.role-select {
+    border: 1px solid #e2e9e3;
+    border-radius: 6px;
+    background: #fff;
+    color: #547060;
+    font-size: 9px;
+    padding: 5px 7px;
+    min-width: 88px;
+    outline: 0;
+}
+
+.role-admin {
+    color: #806a9f;
+    background: #f2eef8;
+    border-color: #e7e0f2;
+}
+
+.role-editor {
+    color: #4c876b;
+    background: #edf7ef;
+    border-color: #dcefe1;
+}
+
+.role-commenter {
+    color: #64879f;
+    background: #eef5f8;
+    border-color: #dfeaf0;
+}
+
+.role-viewer {
+    color: #7f8c84;
+    background: #f2f4f2;
+    border-color: #e6eae6;
+}
+
+.role-helper {
+    display: block;
+    color: #a6afa9;
+    font-size: 8px;
+    margin-top: 4px;
+}
+
+/* Access Callout */
+.access-callout {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    background: #eef7f0;
+    border: 1px solid #dcecdf;
+    border-radius: 10px;
+    padding: 12px 15px;
+    margin: -4px 0 17px;
+}
+
+.access-callout-icon {
+    width: 29px;
+    height: 29px;
+    display: grid;
+    place-items: center;
+    color: #4f8d6f;
+    background: #dcefe1;
+    border-radius: 8px;
+}
+
+.access-callout strong,
+.access-callout p {
+    display: block;
+}
+
+.access-callout strong {
+    color: #416450;
+    font-size: 10px;
+}
+
+.access-callout p {
+    margin: 3px 0 0;
+    color: #789585;
+    font-size: 9px;
+}
+
+.access-callout .status-pill {
+    margin-left: auto;
+}

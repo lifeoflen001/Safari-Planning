@@ -1,0 +1,164 @@
+/* Light-theme contrast pass. Dark mode keeps its own explicit palette. */
+html:not(.dark-theme) {
+    --ink: #183128;
+    --muted: #5f6f66;
+    --line: #d7e2da;
+    --paper: #f7faf8;
+    --panel: #ffffff;
+    --sidebar: #e8dcc9;
+    --shadow: 0 8px 28px rgba(28, 61, 45, 0.09);
+}
+
+html:not(.dark-theme) body {
+    color: #183128;
+    font-size: 14px;
+}
+
+html:not(.dark-theme) .brand small,
+html:not(.dark-theme) .nav-label,
+html:not(.dark-theme) .sidebar-status small,
+html:not(.dark-theme) .user-card small,
+html:not(.dark-theme) .workspace-switch small {
+    color: #65756b;
+}
+
+html:not(.dark-theme) .nav-label {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+}
+
+html:not(.dark-theme) .nav-item {
+    color: #46584e;
+    font-size: 13px;
+}
+
+html:not(.dark-theme) .nav-item:hover {
+    color: #194f3b;
+    background: #f1e6d5;
+}
+
+html:not(.dark-theme) .nav-item.active {
+    color: #3b2018;
+    background: #d8c59f;
+}
+
+html:not(.dark-theme) .nav-item em {
+    color: #2b6b4e;
+    background: #cfe5d5;
+}
+
+html:not(.dark-theme) .workspace-switch strong,
+html:not(.dark-theme) .sidebar-status strong,
+html:not(.dark-theme) .user-card strong {
+    color: #30483a;
+}
+
+html:not(.dark-theme) .topbar {
+    background: #ffffff;
+    border-color: #d7e2da;
+}
+
+html:not(.dark-theme) .breadcrumb {
+    color: #64736b;
+}
+
+html:not(.dark-theme) .breadcrumb b {
+    color: #1d352a;
+}
+
+html:not(.dark-theme) .topbar-tool,
+html:not(.dark-theme) .notification-button,
+html:not(.dark-theme) .icon-button {
+    color: #53675b;
+}
+
+html:not(.dark-theme) .panel-heading h2,
+html:not(.dark-theme) .metric-label,
+html:not(.dark-theme) .booking-name strong,
+html:not(.dark-theme) .resource-card h3,
+html:not(.dark-theme) .report-card h3 {
+    color: #203a2d;
+}
+
+html:not(.dark-theme) .panel-heading p,
+html:not(.dark-theme) .lede,
+html:not(.dark-theme) .resource-card > p,
+html:not(.dark-theme) .report-card p {
+    color: #607168;
+}
+
+html:not(.dark-theme) .booking-row,
+html:not(.dark-theme) .spreadsheet td {
+    color: #4f6257;
+}
+
+html:not(.dark-theme) .booking-head,
+html:not(.dark-theme) .spreadsheet th {
+    color: #607168;
+    background: #f2f7f3;
+}
+
+html:not(.dark-theme) .booking-name small,
+html:not(.dark-theme) .resource-language span,
+html:not(.dark-theme) .resource-status span,
+html:not(.dark-theme) .report-card .report-updated {
+    color: #708077;
+}
+
+html:not(.dark-theme) .button-secondary {
+    color: #365347;
+    border-color: #b9cfc0;
+    background: #ffffff;
+}
+
+html:not(.dark-theme) .global-search {
+    color: #53675b;
+    border-color: #d7e2da;
+    background: #f7faf8;
+}
+
+html:not(.dark-theme) .global-search::placeholder {
+    color: #74837a;
+}
+
+html:not(.dark-theme) .notification-dropdown {
+    border-color: #d7e2da;
+    box-shadow: 0 14px 34px rgba(28, 61, 45, 0.14);
+}
+
+html:not(.dark-theme) .notification-dropdown-head strong,
+html:not(.dark-theme) .notification-item strong,
+html:not(.dark-theme) .dropdown-header strong,
+html:not(.dark-theme) .user-dropdown > a,
+html:not(.dark-theme) .user-dropdown > button {
+    color: #30483a;
+}
+
+html:not(.dark-theme) .notification-dropdown-head small,
+html:not(.dark-theme) .notification-item small,
+html:not(.dark-theme) .notification-item em,
+html:not(.dark-theme) .dropdown-header small {
+    color: #66776d;
+}
+
+html:not(.dark-theme) .notification-item:hover,
+html:not(.dark-theme) .user-dropdown > a:hover,
+html:not(.dark-theme) .user-dropdown > button:hover {
+    background: #e8f3eb;
+}
+
+html:not(.dark-theme) .metric-detail,
+html:not(.dark-theme) .chart-label,
+html:not(.dark-theme) .sheet-group small,
+html:not(.dark-theme) .team-profile small,
+html:not(.dark-theme) .role-helper,
+html:not(.dark-theme) .date-cell,
+html:not(.dark-theme) .company-cell,
+html:not(.dark-theme) .notes-cell,
+html:not(.dark-theme) .profile-side-card p,
+html:not(.dark-theme) .settings-section-head p,
+html:not(.dark-theme) .settings-toggle small,
+html:not(.dark-theme) .security-row small {
+    color: #687970;
+}

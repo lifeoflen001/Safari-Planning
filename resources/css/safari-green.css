@@ -1,0 +1,498 @@
+/* Safari Green is the alternate light palette. The beige palette remains the default. */
+html.safari-green-theme:not(.dark-theme) {
+    --ink: #173c2d;
+    --muted: #5c7768;
+    --line: #cfe3d7;
+    --paper: #f6fbf8;
+    --panel: #ffffff;
+    --green: #10ae7c;
+    --green-dark: #087255;
+    --green-soft: #dff7ed;
+    --sidebar: #0e9f73;
+    --sidebar-soft: #e9fbf3;
+    --shadow: 0 10px 28px rgba(9, 126, 88, .12);
+}
+
+html.safari-green-theme:not(.dark-theme) body {
+    color: var(--ink);
+    background: var(--paper);
+}
+
+html.safari-green-theme:not(.dark-theme) .sidebar,
+html.safari-green-theme:not(.dark-theme) .settings-nav {
+    border-color: #087255;
+    background: #0e9f73;
+    color: #fff;
+}
+
+html.safari-green-theme:not(.dark-theme) .topbar,
+html.safari-green-theme:not(.dark-theme) .panel,
+html.safari-green-theme:not(.dark-theme) .metric-card,
+html.safari-green-theme:not(.dark-theme) .resource-card,
+html.safari-green-theme:not(.dark-theme) .report-card,
+html.safari-green-theme:not(.dark-theme) .modal,
+html.safari-green-theme:not(.dark-theme) .user-dropdown,
+html.safari-green-theme:not(.dark-theme) .notification-dropdown {
+    border-color: var(--line);
+    background: #fff;
+}
+
+html.safari-green-theme:not(.dark-theme) .button,
+html.safari-green-theme:not(.dark-theme) .button-primary,
+html.safari-green-theme:not(.dark-theme) .auth-submit,
+html.safari-green-theme:not(.dark-theme) .auth-submit-btn {
+    border-color: #237654;
+    background: #2f8f68;
+    color: #fff;
+    box-shadow: 0 7px 15px rgba(31, 112, 78, .16);
+}
+
+html.safari-green-theme:not(.dark-theme) .button:hover,
+html.safari-green-theme:not(.dark-theme) .button-primary:hover,
+html.safari-green-theme:not(.dark-theme) .auth-submit:hover,
+html.safari-green-theme:not(.dark-theme) .auth-submit-btn:hover {
+    border-color: #176044;
+    background: #237654;
+}
+
+html.safari-green-theme:not(.dark-theme) .button-secondary,
+html.safari-green-theme:not(.dark-theme) .button-ghost,
+html.safari-green-theme:not(.dark-theme) .topbar-tool,
+html.safari-green-theme:not(.dark-theme) .notification-button,
+html.safari-green-theme:not(.dark-theme) .icon-button,
+html.safari-green-theme:not(.dark-theme) .sidebar-toggle {
+    border-color: #b9d5c5;
+    background: #f2faf5;
+    color: #276247;
+}
+
+html.safari-green-theme:not(.dark-theme) .button-secondary:hover,
+html.safari-green-theme:not(.dark-theme) .button-ghost:hover,
+html.safari-green-theme:not(.dark-theme) .topbar-tool:hover,
+html.safari-green-theme:not(.dark-theme) .notification-button:hover,
+html.safari-green-theme:not(.dark-theme) .icon-button:hover,
+html.safari-green-theme:not(.dark-theme) .sidebar-toggle:hover,
+html.safari-green-theme:not(.dark-theme) .sidebar-toggle.active {
+    border-color: #73ad8d;
+    background: #dcefe4;
+    color: #176044;
+}
+
+html.safari-green-theme:not(.dark-theme) .nav-item,
+html.safari-green-theme:not(.dark-theme) .settings-nav-item {
+    color: #effff8;
+}
+
+html.safari-green-theme:not(.dark-theme) .nav-item:hover,
+html.safari-green-theme:not(.dark-theme) .settings-nav-item:hover {
+    border-color: #52d0a4;
+    background: #0b8f68;
+    color: #fff;
+}
+
+html.safari-green-theme:not(.dark-theme) .nav-item.active,
+html.safari-green-theme:not(.dark-theme) .settings-nav-item.active {
+    background: #12b886;
+    color: #fff;
+    box-shadow: inset 3px 0 0 #d7fff0;
+}
+
+html.safari-green-theme:not(.dark-theme) .nav-item em,
+html.safari-green-theme:not(.dark-theme) .settings-heading-icon,
+html.safari-green-theme:not(.dark-theme) .profile-avatar-large,
+html.safari-green-theme:not(.dark-theme) .profile-side-icon,
+html.safari-green-theme:not(.dark-theme) .settings-section-icon,
+html.safari-green-theme:not(.dark-theme) .route-green,
+html.safari-green-theme:not(.dark-theme) .metric-sage,
+html.safari-green-theme:not(.dark-theme) .avatar-sage {
+    background: #d5ecde;
+    color: #176044;
+}
+
+html.safari-green-theme:not(.dark-theme) .global-search {
+    border-color: #bdd8c8;
+    background: #f7fcf9;
+}
+
+html.safari-green-theme:not(.dark-theme) .global-search:focus-within {
+    border-color: #4a9b75;
+    box-shadow: 0 0 0 3px rgba(47, 143, 104, .16);
+}
+
+html.safari-green-theme:not(.dark-theme) .global-search-button {
+    background: #d5ecde;
+    color: #176044;
+}
+
+html.safari-green-theme:not(.dark-theme) .global-search-button:hover {
+    background: #bfe2cd;
+}
+
+html.safari-green-theme:not(.dark-theme) input,
+html.safari-green-theme:not(.dark-theme) select,
+html.safari-green-theme:not(.dark-theme) textarea,
+html.safari-green-theme:not(.dark-theme) .settings-select {
+    border-color: #c5ded0;
+    background: #fff;
+    color: #173c2d;
+}
+
+html.safari-green-theme:not(.dark-theme) input:focus,
+html.safari-green-theme:not(.dark-theme) select:focus,
+html.safari-green-theme:not(.dark-theme) textarea:focus,
+html.safari-green-theme:not(.dark-theme) .settings-select:focus {
+    border-color: #4b9c76;
+    box-shadow: 0 0 0 3px rgba(47, 143, 104, .15);
+}
+
+html.safari-green-theme:not(.dark-theme) .booking-head,
+html.safari-green-theme:not(.dark-theme) .team-head,
+html.safari-green-theme:not(.dark-theme) .spreadsheet th,
+html.safari-green-theme:not(.dark-theme) .transfer-table th {
+    background: #dff1e6;
+    color: #285d47;
+}
+
+html.safari-green-theme:not(.dark-theme) .booking-row,
+html.safari-green-theme:not(.dark-theme) .team-row,
+html.safari-green-theme:not(.dark-theme) .spreadsheet td,
+html.safari-green-theme:not(.dark-theme) .transfer-row {
+    border-color: #dbeae0;
+    color: #426856;
+}
+
+html.safari-green-theme:not(.dark-theme) .settings-nav-section-workspace,
+html.safari-green-theme:not(.dark-theme) .settings-toggle,
+html.safari-green-theme:not(.dark-theme) .security-row {
+    border-color: rgba(255, 255, 255, .28);
+}
+
+html.safari-green-theme:not(.dark-theme) .switch input:checked + .slider {
+    border-color: #2f8f68;
+    background: #2f8f68;
+}
+
+html.safari-green-theme:not(.dark-theme) .settings-nav-collapsed .settings-nav-item[title]::after,
+html.safari-green-theme:not(.dark-theme) .sidebar-collapsed .nav-item[title]::after {
+    border-color: #b9d5c5;
+    background: #f6fcf8;
+    color: #245a43;
+    box-shadow: 0 10px 24px rgba(22, 88, 59, .14);
+}
+
+html.safari-green-theme:not(.dark-theme) .profile-cover,
+html.safari-green-theme:not(.dark-theme) .workspace-preview {
+    background: linear-gradient(135deg, #e1f2e8 0%, #ffffff 82%);
+}
+
+/* The planning boards contain compact inline styles; keep their controls green too. */
+html.safari-green-theme:not(.dark-theme) .safari-month-tabs,
+html.safari-green-theme:not(.dark-theme) .transfer-board-shell .safari-month-tabs {
+    border-color: #d2e7da !important;
+}
+
+html.safari-green-theme:not(.dark-theme) .board-stat,
+html.safari-green-theme:not(.dark-theme) .transfer-summary-grid .board-stat {
+    border-color: #d2e7da !important;
+    background: #f3faf5 !important;
+}
+
+html.safari-green-theme:not(.dark-theme) .board-search,
+html.safari-green-theme:not(.dark-theme) .transfer-board-toolbar .board-search,
+html.safari-green-theme:not(.dark-theme) .board-filter-dropdown summary,
+html.safari-green-theme:not(.dark-theme) .transfer-filter-dropdown summary,
+html.safari-green-theme:not(.dark-theme) .board-columns summary,
+html.safari-green-theme:not(.dark-theme) .transfer-board-toolbar .board-columns summary {
+    border-color: #c5ded0 !important;
+    background: #fff !important;
+    color: #37634e !important;
+}
+
+html.safari-green-theme:not(.dark-theme) .board-filter-menu,
+html.safari-green-theme:not(.dark-theme) .board-columns-menu,
+html.safari-green-theme:not(.dark-theme) .transfer-filter-menu,
+html.safari-green-theme:not(.dark-theme) .transfer-column-menu {
+    border-color: #c5ded0 !important;
+    background: #fff !important;
+    box-shadow: 0 10px 22px rgba(22, 88, 59, .14) !important;
+}
+
+html.safari-green-theme:not(.dark-theme) .board-filter-chips a,
+html.safari-green-theme:not(.dark-theme) .inline-cell:hover {
+    border-color: #b8d9c5 !important;
+    background: #dff1e6 !important;
+    color: #176044 !important;
+}
+
+html.safari-green-theme:not(.dark-theme) .safari-table-wrap,
+html.safari-green-theme:not(.dark-theme) .transfer-table-wrap {
+    border-color: #d2e7da !important;
+    scrollbar-color: #62a982 #e8f5ec !important;
+}
+
+html.safari-green-theme:not(.dark-theme) .safari-table-wrap::-webkit-scrollbar-thumb,
+html.safari-green-theme:not(.dark-theme) .transfer-table-wrap::-webkit-scrollbar-thumb {
+    border-color: #e8f5ec !important;
+    background: #62a982 !important;
+}
+
+html.safari-green-theme:not(.dark-theme) .board-status {
+    background: #e1f2e8 !important;
+    color: #286346 !important;
+}
+
+html.safari-green-theme:not(.dark-theme) .auth-language,
+html.safari-green-theme:not(.dark-theme) .auth-page-footer,
+html.safari-green-theme:not(.dark-theme) .auth-brandbar::before {
+    background: #dff1e6;
+}
+
+html.safari-green-theme:not(.dark-theme) .auth-language {
+    color: #1e5d43;
+}
+
+html.safari-green-theme:not(.dark-theme) .auth-page-footer {
+    color: #35634e;
+}
+
+/* Remaining compact shell and access controls that use fixed beige values. */
+html.safari-green-theme:not(.dark-theme) .brand-collapsed-mark {
+    border: 1px solid #b9d5c5;
+    background: #f2faf5;
+    color: #237654;
+    box-shadow: 0 5px 12px rgba(22, 88, 59, .13);
+}
+
+html.safari-green-theme:not(.dark-theme) .sidebar-collapsed .nav-item[title]::after,
+html.safari-green-theme:not(.dark-theme) body.settings-page .access-icon-action::after,
+html.safari-green-theme:not(.dark-theme) body.settings-page .access-actions > a.button-small::after,
+html.safari-green-theme:not(.dark-theme) .safari-board-actions .button::after,
+html.safari-green-theme:not(.dark-theme) .transfer-board-actions .button::after {
+    background: #176044 !important;
+    color: #f7fffa !important;
+}
+
+html.safari-green-theme:not(.dark-theme) body.settings-page .access-icon-action {
+    border-color: #b9d5c5;
+    background: #f2faf5;
+    color: #276247;
+}
+
+html.safari-green-theme:not(.dark-theme) .safari-month-tabs a:hover,
+html.safari-green-theme:not(.dark-theme) .safari-month-tabs a.is-active,
+html.safari-green-theme:not(.dark-theme) .transfer-board-shell .safari-month-tabs a:hover,
+html.safari-green-theme:not(.dark-theme) .transfer-board-shell .safari-month-tabs a.is-active {
+    background: #cfe9d9 !important;
+    color: #176044 !important;
+}
+
+html.safari-green-theme:not(.dark-theme) .safari-month-tabs a,
+html.safari-green-theme:not(.dark-theme) .transfer-board-shell .safari-month-tabs a {
+    color: #527664 !important;
+}
+
+html.safari-green-theme:not(.dark-theme) .safari-month-tabs strong,
+html.safari-green-theme:not(.dark-theme) .transfer-board-shell .safari-month-tabs strong {
+    background: #fff !important;
+    color: #276247 !important;
+}
+
+html.safari-green-theme:not(.dark-theme) .board-stat span,
+html.safari-green-theme:not(.dark-theme) .transfer-summary-grid .board-stat span {
+    color: #5c7768 !important;
+}
+
+html.safari-green-theme:not(.dark-theme) .board-stat strong,
+html.safari-green-theme:not(.dark-theme) .transfer-summary-grid .board-stat strong,
+html.safari-green-theme:not(.dark-theme) .safari-group-cell {
+    color: #173c2d !important;
+}
+
+html.safari-green-theme:not(.dark-theme) .board-year-picker select,
+html.safari-green-theme:not(.dark-theme) .board-view-select,
+html.safari-green-theme:not(.dark-theme) .transfer-daily-tools input,
+html.safari-green-theme:not(.dark-theme) .board-filter-menu select,
+html.safari-green-theme:not(.dark-theme) .transfer-filter-grid select,
+html.safari-green-theme:not(.dark-theme) .board-filter-grid input,
+html.safari-green-theme:not(.dark-theme) .board-filter-grid select {
+    border-color: #c5ded0 !important;
+    background: #fff !important;
+    color: #173c2d !important;
+}
+
+html.safari-green-theme:not(.dark-theme) .safari-table-wrap,
+html.safari-green-theme:not(.dark-theme) .transfer-table-wrap {
+    border-color: #d2e7da !important;
+    scrollbar-color: #62a982 #e8f5ec !important;
+}
+
+html.safari-green-theme:not(.dark-theme) .safari-table-wrap::-webkit-scrollbar-track,
+html.safari-green-theme:not(.dark-theme) .transfer-table-wrap::-webkit-scrollbar-track {
+    background: #e8f5ec !important;
+}
+
+html.safari-green-theme:not(.dark-theme) .safari-table-wrap::-webkit-scrollbar-thumb,
+html.safari-green-theme:not(.dark-theme) .transfer-table-wrap::-webkit-scrollbar-thumb {
+    border-color: #e8f5ec !important;
+    background: #62a982 !important;
+}
+
+html.safari-green-theme:not(.dark-theme) .board-status,
+html.safari-green-theme:not(.dark-theme) .transfer-status-planned {
+    background: #e7f2df !important;
+    color: #4d713c !important;
+}
+
+html.safari-green-theme:not(.dark-theme) .transfer-board-actions button[onclick*="transferModal"]:hover,
+html.safari-green-theme:not(.dark-theme) .transfer-board-actions button[onclick*="transferModal"]:focus-visible {
+    border-color: #73ad8d !important;
+    background: #cfe9d9 !important;
+    color: #176044 !important;
+    outline-color: #9bc9ad !important;
+}
+
+html.safari-green-theme:not(.dark-theme) .inline-cell:hover {
+    outline-color: #73ad8d !important;
+}
+
+/* Deep teal-green surfaces and white type for the planning workspace. */
+html.safari-green-theme:not(.dark-theme) .sidebar,
+html.safari-green-theme:not(.dark-theme) .settings-nav {
+    background: #0e9f73 !important;
+    color: #fff !important;
+}
+
+html.safari-green-theme:not(.dark-theme) .sidebar .brand strong,
+html.safari-green-theme:not(.dark-theme) .sidebar .brand small,
+html.safari-green-theme:not(.dark-theme) .sidebar .workspace-switch strong,
+html.safari-green-theme:not(.dark-theme) .sidebar .workspace-switch small,
+html.safari-green-theme:not(.dark-theme) .sidebar .nav-label,
+html.safari-green-theme:not(.dark-theme) .sidebar .sidebar-status strong,
+html.safari-green-theme:not(.dark-theme) .sidebar .sidebar-status small,
+html.safari-green-theme:not(.dark-theme) .sidebar .user-card strong,
+html.safari-green-theme:not(.dark-theme) .sidebar .user-card small,
+html.safari-green-theme:not(.dark-theme) .sidebar .nav-item,
+html.safari-green-theme:not(.dark-theme) .settings-nav,
+html.safari-green-theme:not(.dark-theme) .settings-nav .settings-nav-label,
+html.safari-green-theme:not(.dark-theme) .settings-nav .settings-nav-item {
+    color: #fff !important;
+}
+
+html.safari-green-theme:not(.dark-theme) .sidebar .nav-item:hover,
+html.safari-green-theme:not(.dark-theme) .sidebar .nav-item.active,
+html.safari-green-theme:not(.dark-theme) .settings-nav .settings-nav-item:hover,
+html.safari-green-theme:not(.dark-theme) .settings-nav .settings-nav-item.active {
+    background: #12b886 !important;
+    color: #fff !important;
+}
+
+html.safari-green-theme:not(.dark-theme) .safari-board-shell,
+html.safari-green-theme:not(.dark-theme) .transfer-board-shell {
+    border-color: #0e9f73 !important;
+    background: #fff !important;
+}
+
+html.safari-green-theme:not(.dark-theme) .safari-planning-table,
+html.safari-green-theme:not(.dark-theme) .transfer-planning-table {
+    color: #174d39 !important;
+}
+
+html.safari-green-theme:not(.dark-theme) .safari-planning-table th,
+html.safari-green-theme:not(.dark-theme) .transfer-planning-table th,
+html.safari-green-theme:not(.dark-theme) .safari-planning-table thead .safari-sticky-col,
+html.safari-green-theme:not(.dark-theme) .transfer-planning-table thead .transfer-sticky,
+html.safari-green-theme:not(.dark-theme) .transfer-planning-table thead .transfer-actions {
+    background: #10ae7c !important;
+    border-color: #087255 !important;
+    color: #fff !important;
+}
+
+html.safari-green-theme:not(.dark-theme) .safari-planning-table th a,
+html.safari-green-theme:not(.dark-theme) .transfer-planning-table th a {
+    color: #fff !important;
+}
+
+html.safari-green-theme:not(.dark-theme) .safari-planning-table td,
+html.safari-green-theme:not(.dark-theme) .transfer-planning-table td {
+    border-color: #d5ebe0 !important;
+    background: #fff !important;
+    color: #174d39 !important;
+}
+
+html.safari-green-theme:not(.dark-theme) .safari-planning-table .safari-sticky-col,
+html.safari-green-theme:not(.dark-theme) .transfer-planning-table .transfer-sticky,
+html.safari-green-theme:not(.dark-theme) .transfer-planning-table .transfer-actions {
+    background: #fff !important;
+}
+
+html.safari-green-theme:not(.dark-theme) .safari-planning-table tbody tr:hover td,
+html.safari-green-theme:not(.dark-theme) .transfer-planning-table tr:hover td {
+    background: #e8f9f0 !important;
+    color: #0b5f46 !important;
+}
+
+html.safari-green-theme:not(.dark-theme) .safari-planning-table small,
+html.safari-green-theme:not(.dark-theme) .transfer-planning-table small {
+    color: #5e8975 !important;
+}
+
+html.safari-green-theme:not(.dark-theme) .board-stat,
+html.safari-green-theme:not(.dark-theme) .transfer-summary-grid .board-stat {
+    border-color: #9bdac1 !important;
+    background: #e8f9f0 !important;
+}
+
+html.safari-green-theme:not(.dark-theme) .board-stat span,
+html.safari-green-theme:not(.dark-theme) .transfer-summary-grid .board-stat span,
+html.safari-green-theme:not(.dark-theme) .board-stat strong,
+html.safari-green-theme:not(.dark-theme) .transfer-summary-grid .board-stat strong {
+    color: #0b5f46 !important;
+}
+
+html.safari-green-theme:not(.dark-theme) .safari-month-tabs a.is-active,
+html.safari-green-theme:not(.dark-theme) .transfer-board-shell .safari-month-tabs a.is-active {
+    background: #10ae7c !important;
+    color: #fff !important;
+}
+
+html.safari-green-theme:not(.dark-theme) .safari-month-tabs a.is-active strong,
+html.safari-green-theme:not(.dark-theme) .transfer-board-shell .safari-month-tabs a.is-active strong {
+    color: #087255 !important;
+}
+
+html.safari-green-theme:not(.dark-theme) .button,
+html.safari-green-theme:not(.dark-theme) .button-primary,
+html.safari-green-theme:not(.dark-theme) .auth-submit,
+html.safari-green-theme:not(.dark-theme) .auth-submit-btn,
+html.safari-green-theme:not(.dark-theme) .switch input:checked + .slider {
+    border-color: #087255 !important;
+    background: #10ae7c !important;
+    color: #fff !important;
+}
+
+html.safari-green-theme:not(.dark-theme) .button:hover,
+html.safari-green-theme:not(.dark-theme) .button-primary:hover,
+html.safari-green-theme:not(.dark-theme) .auth-submit:hover,
+html.safari-green-theme:not(.dark-theme) .auth-submit-btn:hover {
+    border-color: #075d46 !important;
+    background: #0b946b !important;
+    color: #fff !important;
+}
+
+html.safari-green-theme:not(.dark-theme) .auth-page-footer,
+html.safari-green-theme:not(.dark-theme) .auth-page-footer strong,
+html.safari-green-theme:not(.dark-theme) .auth-page-footer span,
+html.safari-green-theme:not(.dark-theme) .auth-page-footer a {
+    color: #fff !important;
+}
+
+html.safari-green-theme:not(.dark-theme) .auth-brandbar::before,
+html.safari-green-theme:not(.dark-theme) .auth-page-footer,
+html.safari-green-theme:not(.dark-theme) .auth-language {
+    background: #0e9f73 !important;
+}
+
+html.safari-green-theme:not(.dark-theme) .auth-language {
+    border-color: #087255 !important;
+    color: #fff !important;
+}
